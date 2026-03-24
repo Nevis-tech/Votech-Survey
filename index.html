@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>VOTECH Survey</title>
+</head>
+<body>
+    <section class="container">
+      <h1>VOTECH SURVEY</h1>
+    <p>
+      <span class="p">instruction:</span> <br>
+      Dear teachers, this survey is to see how far we
+       can go to improve on VOTECH administration as a 
+       whole in every aspect. so you dear teacher are 
+       advised to answer all questions sincerly. Thanks 
+       for your sincerity.
+    </p>
+
+    <form id="surveyForm">
+        <label>1.How would you rate the overal worcking conditions of VOTECH?</label> 
+           <input type="text" id="answer1" placeholder="your answer">
+        <label>2.What do you think is the biggest challenge facing VOTECH currently?</label>
+            <input type="text" id="answer2" placeholder="your answer...">
+        <label>3.How would you describe the communication and relationship between staff and management?</label>
+           <input type="text" id="answer3" placeholder="your answer...">
+        <label>4.How are the student performing this term as compared to the previous one?</label>
+           <input type="text" id="answer4" placeholder="your answer...">
+        <label>5.what suggestion do you have for improving students performance in VOTECH?</label>
+           <input type="text" id="answer5" placeholder="your answer...">
+        <label>6. What do you think VOTECH does well and should continue doing it?</label>
+           <input type="text" id="answer6" placeholder="your answer...">  
+        <label>7.Are you satisfied with your current salary?</label> 
+           <input type="text" id="answer7" placeholder="your answer">             
+        <label>8.Do you feel valued by the administration?</label>
+            <input type="text" id="answer8" placeholder="your answer...">
+        <label>9.Are you planning to continue teaching in VOTECH next year?</label>
+           <input type="text" id="answer9" placeholder="your answer...">      
+        <label>10.Do you think VOTECH is a good place to work?</label>      
+           <input type="text" id="answer10" placeholder="your answer">
+        
+         <button type="submit">submit survey</button>
+        
+     </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+      (function(){
+        emailjs.init("rJCG75iSy3X9_Mjf-");
+      })();
+    </script>
+</body> 
+</html
